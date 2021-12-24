@@ -1,0 +1,103 @@
+baseURL = "https://j3yang.github.io"
+title = "Jeffrey Yang"
+theme = "erblog"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# footnoteReturnLinkContents = "^"
+
+[params]
+    author = "Jeffrey Yang"
+    badge = "orange"
+    quote = "red"
+    portrait = "/portrait.jpeg"
+    notice_color = "red"
+    index_posts_num = 5
+    google_search = true
+    # logo = "//blog.ertuil.top/avater.png"
+    bio = """
+    <p> Penultimate Advanced Maths/Computer Science student at UNSW. </p>
+    <br />
+    <p>Interests in competitive programming, machine learning and all things mathematical.</p>
+    <br />
+    <p>View my CV <a href="/cv-jeffrey-yang.pdf/">here</a>.</p>
+    <br />
+    <p>Reach out to me at <a href="mailto:jeffrey2999@gmail.com">jeffrey2999@gmail.com</a>.</p>
+    """
+
+
+
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 11
+
+#[[menu.main]]
+#    identifier = "about"
+#    name = "About"
+#    url = "/about/"
+#    weight = 20
+
+[[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/post/"
+    weight = 30
+
+[[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "https://github.com/j3yang"
+    weight = 35
+
+[[menu.main]]
+    identifier = "CV"
+    name = "CV"
+    url = "/cv-jeffrey-yang.pdf/"
+    weight = 40
+
+# [[menu.main]]
+#     identifier = "zone"
+#     name = "Zone"
+#     url = "/zone/"
+#     weight = 10
+
+#[[menu.footer]]
+#    identifier = "home"
+#    name = "home"
+#    url = "/"
+#    weight = 1
+
+#[[menu.footer]]
+#    identifier = "about"
+#    name = "About"
+#    url = "/about/"
+#    weight = 2
+
+[taxonomies]
+# category = "categories"
+tag = "tags"
+# series = "series"
+
+[[menu.icon]]
+    url = "https://github.com/j3yang"
+    name = "github"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/jeffrey-z-yang/"
+    name = "linkedin"
+    weight = 2
+
+[[menu.icon]]
+    url = "mailto:jeffrey2999@gmail.com"
+    name = "envelope-o"
+    weight = 3
+
+
+
+
+
+
