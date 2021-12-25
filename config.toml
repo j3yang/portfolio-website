@@ -1,4 +1,4 @@
-baseURL = "https://j3yang.github.io"
+baseURL = ""
 title = "Jeffrey Yang"
 theme = "erblog"
 paginate = 3
